@@ -2,6 +2,7 @@
  한글의 경우 알파벳, 숫자와 달리 적은 데이터의 수, 이에 비해 많은 음절의 수로 인하여 OCR 인식률이 상대적으로 떨어져 발전에 한계가 있었다. 본 논문에서는 Keras CNN, 정수 인코딩을 이용하여 한글 OCR 프로그램을 설계했다. 학습에 필요한 양질의 데이터를 AI Hub 플랫폼에서 제공하였고, Hyper Parameter을 조절하면서 CNN 모델을 설계하였다. 설계 이후 고찰을 통해서, 향후 한글 OCR 기술이 발전하기 위한 방향을 제시하였다.<br>
  ![image](https://user-images.githubusercontent.com/68767122/89760339-2342a880-db27-11ea-95da-196723db9a98.png)<br>
 `※ OCR이란 손글씨나 인쇄 글자를 인식하여 텍스트로 변환하는 기술을 의미`
+`※ e-mail : dnjsrl3690@naver.com
 ## ①서론
 ### Keras CNN 구조
 ![image](https://user-images.githubusercontent.com/68767122/89760971-63eef180-db28-11ea-9cac-8e74de83a485.png)<br>
@@ -47,7 +48,7 @@ CPU만을 사용할 시 상당한 시간이 소요된다. 따라서 CUDA Toolkit
 - Total Epochs 는 Validation loss를 고려하여 20으로 설정
 - 한 Epoch당 약 55초의 시간 소모<br>
 ![CNN_Model](https://user-images.githubusercontent.com/68767122/89773114-44fb5a00-db3e-11ea-964f-17ac83028d4b.JPG)
-![image](https://user-images.githubusercontent.com/68767122/89773595-32cdeb80-db3f-11ea-92ba-8ab4b20663b7.png) {:.aligncenter}
+![image](https://user-images.githubusercontent.com/68767122/89773595-32cdeb80-db3f-11ea-92ba-8ab4b20663b7.png)
 ![training_1](https://user-images.githubusercontent.com/68767122/89773422-d2d74500-db3e-11ea-9cc7-82247dccc88e.JPG)
 ![training_2](https://user-images.githubusercontent.com/68767122/89774140-3e6de200-db40-11ea-9ec6-8040d37c20b8.JPG)
 ## ③설계 결과
