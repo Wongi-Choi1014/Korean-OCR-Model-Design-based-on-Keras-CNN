@@ -47,8 +47,8 @@ CPU만을 사용할 시 상당한 시간이 소요된다. 따라서 CUDA Toolkit
 - Optimizer의 경우 RMSprop & Learning rate 0.001에서 최적의 학습효과
 - Total Epochs 는 Validation loss를 고려하여 20으로 설정
 - 한 Epoch당 약 55초의 시간 소모<br>
-![CNN_Model](https://user-images.githubusercontent.com/68767122/89773114-44fb5a00-db3e-11ea-964f-17ac83028d4b.JPG)
-![image](https://user-images.githubusercontent.com/68767122/89773595-32cdeb80-db3f-11ea-92ba-8ab4b20663b7.png)
+![CNN_Model](https://user-images.githubusercontent.com/68767122/89773114-44fb5a00-db3e-11ea-964f-17ac83028d4b.JPG)<br>
+![image](https://user-images.githubusercontent.com/68767122/89773595-32cdeb80-db3f-11ea-92ba-8ab4b20663b7.png)<br>
 ![training_1](https://user-images.githubusercontent.com/68767122/89773422-d2d74500-db3e-11ea-9cc7-82247dccc88e.JPG)
 ![training_2](https://user-images.githubusercontent.com/68767122/89774140-3e6de200-db40-11ea-9ec6-8040d37c20b8.JPG)
 ## ③설계 결과
